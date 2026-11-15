@@ -4,7 +4,7 @@ A .NET command-line project for exploring exoplanets.
 
 ## Getting started
 
-Requires the .NET 10 SDK. From the repository root:
+Requires the .NET 11 SDK. From the repository root:
 
 ```shell
 dotnet run --project src/ExoplanetExplorer.Cli
