@@ -5,7 +5,6 @@ using var http = new HttpClient();
 var adql = """
     SELECT pl_name, hostname, discoverymethod, pl_bmasse, pl_rade, pl_orbper
     FROM pscomppars
-    WHERE discoverymethod = 'Transit'
     """;
 
 var url = "https://exoplanetarchive.ipac.caltech.edu/TAP/sync"

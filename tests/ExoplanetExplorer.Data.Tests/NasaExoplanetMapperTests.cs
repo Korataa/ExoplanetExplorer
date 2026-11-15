@@ -67,7 +67,7 @@ public class NasaExoplanetMapperTests
             Assert.Equal(dto.StarMass, planet.StarMassSolar);
             Assert.Equal(dto.StarRadius, planet.StarRadiusSolar);
             Assert.Equal(dto.StarEffectiveTemperature, planet.StarEffectiveTemperatureK);
-            Assert.Equal(dto.StarLuminosity, planet.StarLuminositySolar);
+            Assert.Equal(dto.StarLuminosity, planet.StarLuminosityLog10RelativeToSun);
             Assert.Equal(dto.StarSpectralType, planet.StarSpectralType);
         }
     }

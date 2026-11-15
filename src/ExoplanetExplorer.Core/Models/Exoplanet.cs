@@ -1,6 +1,7 @@
 public class Exoplanet
 {
     // Identification
+    public int Id { get; set; }
     public required string Name { get; set; }
     public required string Hostname { get; set; }
 
@@ -31,6 +32,6 @@ public class Exoplanet
     public double? StarMassSolar { get; set; }
     public double? StarRadiusSolar { get; set; }
     public double? StarEffectiveTemperatureK { get; set; }
-    public double? StarLuminositySolar { get; set; }
+    public double? StarLuminosityLog10RelativeToSun { get; set; }
     public string? StarSpectralType { get; set; }
 }

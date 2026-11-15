@@ -34,7 +34,7 @@ public static class NasaExoplanetMapper
             StarMassSolar = dto.StarMass,
             StarRadiusSolar = dto.StarRadius,
             StarEffectiveTemperatureK = dto.StarEffectiveTemperature,
-            StarLuminositySolar = dto.StarLuminosity,
+            StarLuminosityLog10RelativeToSun = dto.StarLuminosity,
             StarSpectralType = dto.StarSpectralType
         };
     }
